@@ -7,7 +7,7 @@ use Apache2::Log;
 
 use base qw(JavaScript::Autocomplete::Backend);
 
-our $VERSION = 0.11;
+our $VERSION = 0.12;
 
 sub new {
   my ($class, $r) = @_;
